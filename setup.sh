@@ -4,13 +4,14 @@ function set_up(){
     sudo apt-get update       
     sudo apt-get dist-upgrade    
     # tools
+    sudo apt-get install git                         # git
     sudo apt-get install vim                         # vim
     sudo apt-get install tmux                        # tmux
+    # set_up_others
+    set_up_python
+    set_up_pwn
 }
 
-function set_up_git(){
-    sudo apt-get install git
-}
 
 function set_up_python(){
     sudo apt install python3-pip
@@ -30,6 +31,3 @@ function set_up_pwn(){
 
 # main
 set_up
-set_up_git
-set_up_python
-set_up_pwn
