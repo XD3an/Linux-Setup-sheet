@@ -1,3 +1,4 @@
 # VMs_set_up
-    * setup.sh
-    * tmux.sh
+    
+* setup.sh
+* tmux.sh
