@@ -1,4 +1,4 @@
-# Virtual Machine Set up
+# Virtual Machine Set Up
     
 * setup.sh
 * tmux.sh
