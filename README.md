@@ -1,4 +1,4 @@
-# Linux Virtual Machine Set Up
+# Linux Set Up
 
 ## Script
 * **setup.sh** : A shell(bash) script that sets up some tools.
