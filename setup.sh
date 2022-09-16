@@ -3,6 +3,9 @@
 function set_up(){
     sudo apt-get update       
     sudo apt-get dist-upgrade    
+    # tools
+    sudo apt-get install vim                         # vim
+    sudo apt-get install tmux                        # tmux
 }
 
 function set_up_git(){
