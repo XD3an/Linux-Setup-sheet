@@ -25,6 +25,10 @@ function set_up_pwn(){
     sudo gem install one_gadget                      # one_gadget
     sudo pip install pwntools                        # pwntools
 }
+
+
+
+# main
 set_up
 set_up_git
 set_up_python
