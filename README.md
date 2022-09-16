@@ -1,5 +1,5 @@
 # Virtual Machine Set Up
-### Script
----
+## Script
+
 * setup.sh
 * tmux.sh
