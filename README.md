@@ -1,3 +1,3 @@
 # VMs_set_up
-    * set_up.sh
+    * setup.sh
     * tmux.sh
