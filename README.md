@@ -8,3 +8,5 @@
 
 ## Tools
 * [tmux](https://github.com/tmux/tmux) : A terminal multiplexer.
+* [simplescreenrecoder](https://github.com/MaartenBaert/ssr) : SimpleScreenRecorder, a screen recorder for Linux.
+
