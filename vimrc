@@ -47,10 +47,10 @@ hi Search cterm=reverse ctermbg=none ctermfg=none
 set laststatus=2
 set t_Co=256
 set statusline=%#filepath#[%{expand('%:p')}]%#filetype#[%{strlen(&fenc)?&fenc:&enc},\ %{&ff},\ %{strlen(&filetype)?&filetype:'plain'}]%#filesize#%{FileSize()}%{IsBinary()}%=%#position#%c,%l/%L\ [%3p%%]
-hi filepath cterm=none ctermbg=40 ctermfg=0
-hi filetype cterm=none ctermbg=47 ctermfg=0
-hi filesize cterm=none ctermbg=98 ctermfg=255
-hi position cterm=none ctermbg=93 ctermfg=255
+hi filepath cterm=none ctermbg=93 ctermfg=0
+hi filetype cterm=none ctermbg=40 ctermfg=0
+hi filesize cterm=none ctermbg=27 ctermfg=255
+hi position cterm=none ctermbg=196 ctermfg=255
 function IsBinary()
     if (&binary == 0)
         return ""
