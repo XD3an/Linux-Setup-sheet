@@ -34,7 +34,7 @@ set mouse=a
 "#######################################################
 " Color
 set t_Co=256
-colo torte
+colo default
 set cursorline
 set cursorcolumn
 set hlsearch
