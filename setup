@@ -3,20 +3,20 @@
 function set_up(){
     sudo apt-get update       
     sudo apt-get dist-upgrade    
-    # tools
-    sudo apt-get install git                         # git
-    sudo apt-get install vim                         # vim
-    sudo apt-get install tmux                        # tmux
-    # set_up_others
-    set_up_python
-    set_up_pwn
 }
 
+function set_up_git(){
+    sudo apt-get install git
+}
 
 function set_up_python(){
     sudo apt install python3-pip
 }
 
+function set_up_tools(){
+    sudo apt-get install tmux
+    sudo apt-get install thefuck
+}
 
 function set_up_pwn(){
     sudo apt-get install checksec                    # checksec
@@ -27,7 +27,8 @@ function set_up_pwn(){
     sudo pip install pwntools                        # pwntools
 }
 
-
-
-# main
 set_up
+set_up_git
+set_up_python
+set_up_tools
+set_up_pwn
