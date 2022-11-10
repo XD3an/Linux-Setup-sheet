@@ -2,7 +2,7 @@
 
 function set_up(){
     sudo apt-get update       
-    sudo apt-get dist-upgrade    
+    sudo apt-get dist-upgrade  -y  
 }
 
 function set_up_git(){
