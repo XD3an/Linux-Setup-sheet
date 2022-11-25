@@ -1,34 +1,42 @@
 #! /usr/bin/bash
 
-function set_up(){
-    sudo apt-get update       
-    sudo apt-get dist-upgrade  -y  
-}
+# update & upgrade
+sudo apt-get update
+sudo apt-get dist-upgraede -y
 
-function set_up_git(){
-    sudo apt-get install git
-}
+# setup list
+declare -a setup_list=(
+    # tools
+    git
+    python3-pip
+    tmux
+    thefuck
+    ruby
+    # pwn
+    checksec
+    ltrace
+    strace
+)
 
-function set_up_python(){
-    sudo apt install python3-pip
-}
+# pip list
+declare -a pip_list=(
+    pwntools
+)
 
-function set_up_tools(){
-    sudo apt-get install tmux
-    sudo apt-get install thefuck
-}
 
-function set_up_pwn(){
-    sudo apt-get install checksec                    # checksec
-    sudo apt-get install strace                      # strace
-    sudo apt-get install ltrace                      # ltrace
-    sudo sudo -H python3 -m pip install ROPgadget    # ROPgadget
-    sudo gem install one_gadget                      # one_gadget
-    sudo pip install pwntools                        # pwntools
-}
+# setup_lisr install
+for i in "${setup_list[@]}"
+do
+    sudo apt-get install "$i"
+done
 
-set_up
-set_up_git
-set_up_python
-set_up_tools
-set_up_pwn
+# pip_list install
+for i in "${pip_list[@]}"
+do
+    sudo pip install "$i"
+done
+
+# other
+sudo -H python3 -m pip install ROPgadget    # ROPgdget
+sudo gem install one_gadget                 # one_gadget
+
