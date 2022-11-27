@@ -29,7 +29,7 @@ declare -a pip_list=(
 )
 
 
-# setup_lisr install
+# setup_list install
 for i in "${setup_list[@]}"
 do
     sudo apt-get install "$i"
