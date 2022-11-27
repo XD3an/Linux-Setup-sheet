@@ -1,8 +1,13 @@
 #! /usr/bin/bash
 
+
 # update & upgrade
 sudo apt-get update
 sudo apt-get dist-upgraede -y
+
+# others
+sudo -H python3 -m pip install ROPgadget    # ROPgdget
+sudo gem install one_gadget                 # one_gadget
 
 # setup list
 declare -a setup_list=(
@@ -36,7 +41,5 @@ do
     sudo pip install "$i"
 done
 
-# other
-sudo -H python3 -m pip install ROPgadget    # ROPgdget
-sudo gem install one_gadget                 # one_gadget
+
 
