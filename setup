@@ -3,7 +3,7 @@
 
 # update & upgrade
 sudo apt-get update
-sudo apt-get dist-upgraede -y
+sudo apt-get dist-upgrade -y
 
 # others
 sudo -H python3 -m pip install ROPgadget    # ROPgdget
@@ -12,11 +12,11 @@ sudo gem install one_gadget                 # one_gadget
 # setup list
 declare -a setup_list=(
     # tools
-    git
     python3-pip
     tmux
     thefuck
     ruby
+    vim
     # pwn
     checksec
     ltrace
