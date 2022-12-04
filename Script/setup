@@ -10,6 +10,7 @@ sudo -H python3 -m pip install ROPgadget    # ROPgdget
 sudo gem install one_gadget                 # one_gadget
 
 # setup list
+# setup list
 declare -a setup_list=(
     # tools
     python3-pip
@@ -17,17 +18,12 @@ declare -a setup_list=(
     thefuck
     ruby
     vim
-    # pwn
-    checksec
-    ltrace
-    strace
-)
+        # you can add something you want to use "sudo apt-get install" to install here.
 
 # pip list
 declare -a pip_list=(
-    pwntools
+        # you can add something you want to use "sudo pip install" to  install here. 
 )
-
 
 # setup_list install
 for i in "${setup_list[@]}"

@@ -4,7 +4,7 @@
 
 * **setup** : A shell(bash) script that sets up some tools ( apt-get、pip ).
     * How to use
-        ```bash
+        ```sh
             $ ./setup
         ```
     * add others
@@ -28,7 +28,7 @@
         ```
 * **tmuxSetup** : A shell(bash) script that configuring [tmux](https://github.com/tmux/tmux). 
     * How to use
-        ```bash
+        ```sh
             $ ./tmuxSetup
         ```
 ## Tools
