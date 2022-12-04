@@ -2,10 +2,29 @@
 
 ## Script
 
-* **setup** : A shell(bash) script that sets up some tools.
+* **setup** : A shell(bash) script that sets up some tools ( apt-get、pip ).
     * How to use
         ```bash
             $ ./setup
+        ```
+    * add others
+        ```sh
+        # setup list
+        declare -a setup_list=(
+            # tools
+            python3-pip
+            tmux
+            thefuck
+            ruby
+            vim
+                # you can add something you want to use "sudo apt-get install" to install here.
+        )
+
+        # pip list
+        declare -a pip_list=(
+                # you can add something you want to use "sudo pip install" to  install here. 
+        )
+
         ```
 * **tmuxSetup** : A shell(bash) script that configuring [tmux](https://github.com/tmux/tmux). 
     * How to use
