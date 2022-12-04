@@ -4,12 +4,12 @@
 
 * **setup** : A shell(bash) script that sets up some tools.
     * How to use
-        ```sh
+        ```bash
             $ ./setup
         ```
 * **tmuxSetup** : A shell(bash) script that configuring [tmux](https://github.com/tmux/tmux). 
     * How to use
-        ```sh
+        ```bash
             $ ./tmuxSetup
         ```
 ## Tools
