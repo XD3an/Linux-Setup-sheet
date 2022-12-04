@@ -1,7 +1,7 @@
 # Linux Set Up sheet
 
 ## Script
----
+
 * **setup** : A shell(bash) script that sets up some tools.
     * How to use
         ```sh
@@ -13,7 +13,7 @@
             $ ./tmuxSetup
         ```
 ## Tools
----
+
 ### Editor
 * [vim](https://www.vim.org/) : a highly configurable text editor built to make creating and changing any kind of text very efficient.
 * [Sublime Text](https://www.sublimetext.com/) : is a shareware cross-platform source code editor.
@@ -33,7 +33,7 @@
 * [jp2a](https://csl.name/jp2a/#:~:text=jp2a%20is%20a%20small%20utility,and%20released%20under%20the%20GPL.) :  is a small utility that converts JPG images to ASCII. It's written in C and released under the GPL.
 
 ## Configuration
----
+
 * **vimrc** : A configuration file for vim.
     * [Reference](https://magiclen.org/vimrc/)
     * [ithelp by Enoxs](https://ithelp.ithome.com.tw/articles/10258222)
