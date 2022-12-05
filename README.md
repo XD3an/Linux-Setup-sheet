@@ -54,6 +54,7 @@
 ## Configuration
 
 * **vimrc** : A configuration file for vim.
-    * [Reference](https://magiclen.org/vimrc/)
     * [ithelp by Enoxs](https://ithelp.ithome.com.tw/articles/10258222)
+    * [Vundle.vim](https://github.com/VundleVim/Vundle.vim)
+    * [vim Awesome](https://vimawesome.com/)
 * **p10k.zsh** : p10k configuration file.
