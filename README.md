@@ -31,6 +31,12 @@
         ```sh
             $ ./tmuxSetup
         ```
+* **notionUp** : Start notion
+    * How to use
+        ```sh
+            $ ./notionUP
+        ```
+
 ## Tools
 
 ### Editor
