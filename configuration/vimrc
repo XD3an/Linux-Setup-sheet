@@ -12,13 +12,15 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+
 Plugin 'preservim/nerdtree'
-Plugin 'valloric/youcompleteme'
+Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'vim-airline/vim-airline'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'valloric/youcompleteme'
 
 
 " All of your Plugins must be added before the following line
@@ -41,16 +43,24 @@ filetype plugin indent on    " required
 syntax enable          " enable syntax highlight
 set number             " display lines number
 set t_Co=256           " supports 256 colors
-set background=dark    " setting background to dark 
+set background=dark    " setting background
 set hlsearch           " search highlight
 set path=.,/usr/include,,**
 set ts=4               " tabstop = 4
 set autoindent 		   " autoindent : autoindent/smartindent/cindne
-colorscheme slate       " colorscheme : slate/molokai
+colorscheme atom-dark  " colorscheme : slate/molokai
 " line-column
 set cursorline
 set cursorcolumn
+set encoding=UTF-8
+let g:airline_powerline_fonts = 1
+set guifont=DroidSansMono\ Nerd\ Font\ 11
+let NERDTreeShowHidden=1
+
+
 hi CursorLine cterm=underline ctermbg=none ctermfg=White
 hi CursorColumn cterm=none ctermbg=Gray ctermfg=White
 
 """"""""""""""""""""""hot key""""""""""""""""""""""""""
+nnoremap <silent> <C-a> :NERDTreeToggle <CR>
+
