@@ -62,5 +62,5 @@ hi CursorLine cterm=underline ctermbg=none ctermfg=White
 hi CursorColumn cterm=none ctermbg=Gray ctermfg=White
 
 """"""""""""""""""""""hot key""""""""""""""""""""""""""
-nnoremap <silent> <C-a> :NERDTreeToggle <CR>
+nnoremap <silent> <C-b> :NERDTreeToggle <CR>
 
