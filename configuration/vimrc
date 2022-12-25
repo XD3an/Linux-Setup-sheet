@@ -45,10 +45,15 @@ set number             " display lines number
 set t_Co=256           " supports 256 colors
 set background=dark    " setting background
 set hlsearch           " search highlight
-set path=.,/usr/include,,**
 set ts=4               " tabstop = 4
 set autoindent 		   " autoindent : autoindent/smartindent/cindne
 colorscheme atom-dark  " colorscheme : slate/molokai
+
+" filetype
+filetype on
+filetype indent on
+filetype plugin on
+
 " line-column
 set cursorline
 set cursorcolumn
@@ -63,4 +68,5 @@ hi CursorColumn cterm=none ctermbg=Gray ctermfg=White
 
 """"""""""""""""""""""hot key""""""""""""""""""""""""""
 nnoremap <silent> <C-b> :NERDTreeToggle <CR>
-
+vmap <C-c> y
+nmap <C-v> p
