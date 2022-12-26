@@ -20,6 +20,7 @@ declare -a setup_list=(
     vim
         # you can add something you want to use "sudo apt-get install" to install here.
 
+)
 # pip list
 declare -a pip_list=(
         # you can add something you want to use "sudo pip install" to  install here. 
